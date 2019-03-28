@@ -51,6 +51,7 @@ namespace energy
                 {
                     odnom_mas[k] = mas[i, j];
                     k++;
+                    //подсчитываю сумму затраченной энергии
                     kol_energii += mas[i, j];
                 }
             }
